@@ -416,7 +416,7 @@ Sprint1_Scr_AgreementRegardingIncidents As screen:
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         Fill: |-
                             =//RGBA(0, 255, 0, 0)
-                            //global_formSectionHeaderFillColor
+                            global_formSectionHeaderFillColor
                         FillPortions: =1
                         FocusedBorderThickness: =4
                         Font: =Font.'Segoe UI'
