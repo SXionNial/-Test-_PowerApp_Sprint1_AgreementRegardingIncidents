@@ -2486,7 +2486,7 @@
                     LayoutMinHeight: =32
                     LayoutMinWidth: =96
                     Size: =20
-                    Text: ="Reviewers"
+                    Text: ="Reviewers - test"
                     Weight: ='TextCanvas.Weight'.Semibold
                     Width: =115
                     X: =0
