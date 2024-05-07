@@ -1,0 +1,67 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =Set(global_showPerScreenRefresh, true);
+        Set(global_screenHeaderFillColor, RGBA(73, 130, 5, 1));
+        
+        Set(global_formSectionHeaderFillColor, RGBA(204, 255, 204, 1));
+        Set(global_formSectionHeader_height, 50);
+        Set(global_approvalStatusSection_RowHeight, 50);
+        Set(global_approvalStatusSection_MinHeight, 125);
+        
+        Set(global_currencyTextFormat, "[$-en-US]#,###0.00");
+        Set(msg_noRecords, "No Previous Applications.");
+        Set(msg_selectARecord, "Please select a record.");
+        Set(msg_noApprovalStatusPlaceholder, "Approval status may not have loaded properly. Please click the Refresh button on the upper-right side.");
+        
+        Set(setApprovalLists, "Attendance");
+        
+        Set(isFirstLoad, true);
+        
+        Set(DepartmentChoiceList, [
+            "- select -",
+            "Platform Development",
+            "Software Development",
+            "BPO - Help Desk",
+            "Infrastructure",
+            "CSD - Accounting",
+            "CSD - HR & Admin"
+        ]);
+        
+        // This is for routing the each screen by cliking specific record URL
+        /*
+        If(!IsBlank(Param("FuneralRecordID")),
+            Set(funeral_RecordID,Param("FuneralRecordID")));
+        If(!IsBlank(Param("SNRecordID")),
+            Set(sn_RecordID,Param("SNRecordID")));
+        If(!IsBlank(Param("RTORecordID")),
+            Set(rto_RecordID,Param("RTORecordID")));
+        If(!IsBlank(Param("OvertimeRecordID")),
+            Set(overtime_RecordID,Param("OvertimeRecordID")));
+        If(!IsBlank(Param("JLPTRecordID")),
+            Set(jlpt_RecordID,Param("JLPTRecordID")));
+        */
+        
+        //-------- The following is for restricting editable group --------//
+        // ClearCollect(HRMembersfromSG,
+        //    Office365Groups.ListGroupMembers("49c94924-f183-4ba7-9986-c584674e62f7").value); // RGTC HR & Admin
+        //ClearCollect(HRMembersfromSG,
+        //    Office365Groups.ListGroupMembers("21ee7c73-4318-4a8c-aa3d-19b02b5ee482").value); // test PDD
+        
+        // ClearCollect(ACMembersfromSG,
+        //    Office365Groups.ListGroupMembers("199c0ef9-00ad-4a92-bdbb-9a045fcc8da0").value); // RGTC ACCOUNTING
+        //ClearCollect(ACMembersfromSG,
+        //    Office365Groups.ListGroupMembers("21ee7c73-4318-4a8c-aa3d-19b02b5ee482").value); // test PDD
+        
+        //------- GetEmployeeID function using current User -------//
+        //Set(EmployeeID, GetEmployeeID.Run(EncodeUrl(User().Email)).empid)
+    StartScreen: =Sprint1_Scr_AgreementRegardingIncidents
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

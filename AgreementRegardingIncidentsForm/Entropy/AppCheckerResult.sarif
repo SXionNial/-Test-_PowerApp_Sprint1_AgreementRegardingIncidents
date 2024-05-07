@@ -1,0 +1,1636 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
+  "runs": [
+    {
+      "columnKind": "utf16CodeUnits",
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "results": [
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BackButton.Icon1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BackButton.Icon1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BackButton",
+                "type": "BackButton.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BackButton.Icon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BackButton.Icon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BackButton",
+                "type": "BackButton.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.TableNameContainer1.reload_AgreementRegardingIncidents.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.TableNameContainer1.reload_AgreementRegardingIncidents.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.TableNameContainer1.reload_AgreementRegardingIncidents"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.TableNameContainer1.reload_AgreementRegardingIncidents.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.TableNameContainer1.reload_AgreementRegardingIncidents.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.TableNameContainer1.reload_AgreementRegardingIncidents"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.SearchContainer1.srchInput_AgreementRegardingIncidents.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.SearchContainer1.srchInput_AgreementRegardingIncidents.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.SearchContainer1.srchInput_AgreementRegardingIncidents"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.NewRecordButtonBarContainer1.NewRecordAddIcon1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.NewRecordButtonBarContainer1.NewRecordAddIcon1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.NewRecordButtonBarContainer1.NewRecordAddIcon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.NewRecordButtonBarContainer1.NewRecordAddIcon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.NewRecordButtonBarContainer1.NewRecordAddIcon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.NewRecordButtonBarContainer1.NewRecordAddIcon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.recordsGallery_AgreementRegardingIncidents.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.recordsGallery_AgreementRegardingIncidents.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.recordsGallery_AgreementRegardingIncidents"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.recordsGallery_AgreementRegardingIncidents.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.recordsGallery_AgreementRegardingIncidents.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.SidebarContainer1_1.recordsGallery_AgreementRegardingIncidents"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.BackIconButton1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.BackIconButton1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.BackIconButton1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.EditIconButton1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.EditIconButton1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.EditIconButton1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.DeleteIconButton1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.DeleteIconButton1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.DeleteIconButton1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.SubmitFormButton1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.SubmitFormButton1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.SubmitFormButton1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.ResetFormButton1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.ResetFormButton1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.SelectedRecordHeaderContainer1.ResetFormButton1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.Date_DataCard1.fldVal_ApplicationDate_ARI.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.Date_DataCard1.fldVal_ApplicationDate_ARI.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.Date_DataCard1.fldVal_ApplicationDate_ARI"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Employee Name_DataCard1'.fldVal_EmployeeName_ARI.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Employee Name_DataCard1'.fldVal_EmployeeName_ARI.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Employee Name_DataCard1'.fldVal_EmployeeName_ARI"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Employee ID Number_DataCard1'.DataCardValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Employee ID Number_DataCard1'.DataCardValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Employee ID Number_DataCard1'.DataCardValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Department Name_DataCard1'.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Department Name_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Department Name_DataCard1'.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_a_DataCard2'.DataCardValue9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_a_DataCard2'.DataCardValue9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_a_DataCard2'.DataCardValue9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_b_DataCard1'.DataCardValue10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_b_DataCard1'.DataCardValue10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_b_DataCard1'.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_c_DataCard1'.DataCardValue11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_c_DataCard1'.DataCardValue11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_c_DataCard1'.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_d_DataCard1'.DataCardValue12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_d_DataCard1'.DataCardValue12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'1_Security Incident Cases_d_DataCard1'.DataCardValue12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_a_DataCard1'.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_a_DataCard1'.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_a_DataCard1'.DataCardValue13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_b_DataCard1'.DataCardValue14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_b_DataCard1'.DataCardValue14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_b_DataCard1'.DataCardValue14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_c_DataCard1'.DataCardValue15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_c_DataCard1'.DataCardValue15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_c_DataCard1'.DataCardValue15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_d_DataCard1'.DataCardValue16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_d_DataCard1'.DataCardValue16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_d_DataCard1'.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_e_DataCard1'.DataCardValue17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_e_DataCard1'.DataCardValue17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'2_Quality Incident Cases_e_DataCard1'.DataCardValue17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_a_DataCard1'.DataCardValue18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_a_DataCard1'.DataCardValue18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_a_DataCard1'.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_b_DataCard1'.DataCardValue19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_b_DataCard1'.DataCardValue19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_b_DataCard1'.DataCardValue19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_c_DataCard1'.DataCardValue20.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_c_DataCard1'.DataCardValue20.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'3_Emergency Cases_c_DataCard1'.DataCardValue20"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_DataCard2'.fldVal_ImmMgr_ARI.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_DataCard2'.fldVal_ImmMgr_ARI.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_DataCard2'.fldVal_ImmMgr_ARI"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_PhoneNumber_DataCard1'.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_PhoneNumber_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_PhoneNumber_DataCard1'.DataCardValue5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_MailAddress_DataCard1'.DataCardValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_MailAddress_DataCard1'.DataCardValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_1_MailAddress_DataCard1'.DataCardValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_DataCard1'.DataCardValue21.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_DataCard1'.DataCardValue21.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_DataCard1'.DataCardValue21"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_PhoneNumber_DataCard1'.DataCardValue23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_PhoneNumber_DataCard1'.DataCardValue23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_PhoneNumber_DataCard1'.DataCardValue23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_MailAddress_DataCard1'.DataCardValue22.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_MailAddress_DataCard1'.DataCardValue22.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_2_MailAddress_DataCard1'.DataCardValue22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_DataCard1'.DataCardValue25.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_DataCard1'.DataCardValue25.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_DataCard1'.DataCardValue25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_PhoneNumber_DataCard1'.DataCardValue27.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_PhoneNumber_DataCard1'.DataCardValue27.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_PhoneNumber_DataCard1'.DataCardValue27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_MailAddress_DataCard1'.DataCardValue26.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_MailAddress_DataCard1'.DataCardValue26.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Immediate Manager_3_MailAddress_DataCard1'.DataCardValue26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.DataCard5.ARI_ApprovalStatusGallery_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.DataCard5.ARI_ApprovalStatusGallery_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.DataCard5.ARI_ApprovalStatusGallery_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.DataCard5.ARI_ApprovalStatusGallery_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.DataCard5.ARI_ApprovalStatusGallery_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.DataCard5.ARI_ApprovalStatusGallery_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.Status_DataCard1.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.Status_DataCard1.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.Status_DataCard1.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Submitted By_DataCard1'.DataCardValue7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Submitted By_DataCard1'.DataCardValue7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Submitted By_DataCard1'.DataCardValue7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Assigned To_DataCard1'.DataCardValue8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Assigned To_DataCard1'.DataCardValue8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents.ScreenContainer1_1.BodyContainer1.RightContainer1.MainContainer1_1.frm_AgreementRegardingIncidents.'Assigned To_DataCard1'.DataCardValue8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.global_formSectionHeader_height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.global_formSectionHeader_height",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "global_formSectionHeader_height",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.global_currencyTextFormat"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.global_currencyTextFormat",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "global_currencyTextFormat",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.msg_noApprovalStatusPlaceholder"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.msg_noApprovalStatusPlaceholder",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "msg_noApprovalStatusPlaceholder",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.setApprovalLists"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.setApprovalLists",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "setApprovalLists",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.isFirstLoad"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.isFirstLoad",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "isFirstLoad",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.DepartmentChoiceList"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.DepartmentChoiceList",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "DepartmentChoiceList",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BackButton.isFirstLoad"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BackButton.isFirstLoad",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "isFirstLoad",
+                "module": "BackButton",
+                "type": "BackButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.deleteCancelled"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Sprint1_Scr_AgreementRegardingIncidents.deleteCancelled",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "deleteCancelled",
+                "module": "Sprint1_Scr_AgreementRegardingIncidents",
+                "type": "Sprint1_Scr_AgreementRegardingIncidents"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        }
+      ],
+      "tool": {
+        "driver": {
+          "fullName": "PowerApps app checker",
+          "name": "PowerApps app checker",
+          "rules": [
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused variable"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused variable."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+              }
+            }
+          ],
+          "version": "1.341"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

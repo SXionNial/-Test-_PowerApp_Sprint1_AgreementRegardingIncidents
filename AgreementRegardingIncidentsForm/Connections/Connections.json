@@ -1,0 +1,126 @@
+{
+  "041488fc-4f37-4018-b7e1-128c8125cf23": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "cfc1bec3-06b3-4e64-ac63-7a9cbdc5c7f3"
+    ],
+    "id": "041488fc-4f37-4018-b7e1-128c8125cf23"
+  },
+  "87e35170-952b-4853-b55e-273ef34f4a7c": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1685/1.0.1685.3700/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://rococoglobal.sharepoint.com/sites/rcp-dev_new_rcpsharepointsite": {
+        "datasetOverride": {
+          "environmentVariableName": "new_rcpsharepointsite",
+          "name": "https://rococoglobal.sharepoint.com/sites/rcp-dev"
+        },
+        "dataSources": {
+          "rcp_sprnt1_Agreement Regarding Incidents List ": {
+            "tableName": "532f14da-100a-4c2c-aa44-0d574ceff9fb",
+            "tableNameOverride": {
+              "environmentVariableName": "new_rcp_sprnt1_AgreementRegardingIncidentsList",
+              "name": "532f14da-100a-4c2c-aa44-0d574ceff9fb"
+            }
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "rcp_sprnt1_Agreement Regarding Incidents List "
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "87e35170-952b-4853-b55e-273ef34f4a7c"
+  },
+  "caeb024c-76ee-4fef-8a46-547b0e569b82": {
+    "appActions": [
+      "MyProfile_V2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "caeb024c-76ee-4fef-8a46-547b0e569b82"
+  },
+  "cfc1bec3-06b3-4e64-ac63-7a9cbdc5c7f3": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/patelronak/specialtrain-logicflows-2/1.0.1692.3734/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "041488fc-4f37-4018-b7e1-128c8125cf23": {
+          "value": "shared_office365users"
+        },
+        "workflowDisplayName": {
+          "value": "flow_GetEmployeeID"
+        },
+        "workflowEntityId": {
+          "value": "1f0b44ca-9602-ef11-9f89-000d3aa02f9f"
+        },
+        "workflowName": {
+          "value": "51f1c298-da03-afbf-0943-8d7ec47cde16"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365users": {
+          "value": "041488fc-4f37-4018-b7e1-128c8125cf23"
+        },
+        "workflowDisplayName": {
+          "value": "flow_GetEmployeeID"
+        },
+        "workflowEntityId": {
+          "value": "1f0b44ca-9602-ef11-9f89-000d3aa02f9f"
+        },
+        "workflowName": {
+          "value": "51f1c298-da03-afbf-0943-8d7ec47cde16"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "flow_GetEmployeeID"
+    ],
+    "dependencies": {
+      "shared_office365users": "041488fc-4f37-4018-b7e1-128c8125cf23"
+    },
+    "dependents": [],
+    "id": "cfc1bec3-06b3-4e64-ac63-7a9cbdc5c7f3"
+  }
+}
