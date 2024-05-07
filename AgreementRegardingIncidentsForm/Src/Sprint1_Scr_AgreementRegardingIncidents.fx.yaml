@@ -424,7 +424,7 @@ Sprint1_Scr_AgreementRegardingIncidents As screen:
                             =//recGallery_AgreementRegardingIncidents.Selected.Title
                             If(
                                 IsBlank(recordsGallery_AgreementRegardingIncidents.Selected) || IsBlank(recordsGallery_AgreementRegardingIncidents.Selected),
-                                If(frm_AgreementRegardingIncidents.Mode = FormMode.New, "  New Form", ""),
+                                If(frm_AgreementRegardingIncidents.Mode = FormMode.New, "  New Form  ", ""),
                                 If(
                                     frm_AgreementRegardingIncidents.Mode = FormMode.New,
                                     " New Form",
